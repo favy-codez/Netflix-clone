@@ -99,7 +99,8 @@ input[type=email]{
 
 #hero-text-3{
     font-size: 12px;
-    margin: 1rem 0 12px 0;
+    margin: 2rem 0 12px 0;
+    text-align: center;
 }
 
 input[type=email]{
@@ -240,7 +241,7 @@ hr{
 /* FAQSection */
 .FAQSection{
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem 0 2rem 0;
 }
 
 .FAQHeader{
@@ -351,4 +352,12 @@ footer{
 
 #footer-text{
     font-size: 12px;
+}
+
+/* .red-box{
+    margin: 0 0 3rem 0;
+} */
+
+.FAQSection-2{
+    padding: 0 0 4rem 0;
 }

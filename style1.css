@@ -223,5 +223,7 @@ footer{
         grid-template-columns: repeat(2, 150px);
         padding: 20px;
     }
-    
+    #footer-text{
+        padding-left: 30px;
+    }
 }

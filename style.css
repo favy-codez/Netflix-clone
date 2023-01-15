@@ -483,4 +483,7 @@ main h3{
     .footer-part{
         max-width: 300px;
     }
+    .section-one img {
+    width: 300px;
+}
 }

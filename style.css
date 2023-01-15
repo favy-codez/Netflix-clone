@@ -452,6 +452,35 @@ main h3{
     }
 }
 
-@media screen and (max-width: 523px){
-    
+@media screen and (max-width: 375px){
+    .nav-section img{
+        width: 4rem;
+    }
+    #hero-text-1{
+        font-size: 1.7rem;
+        width: 300px;
+    }
+    #hero-text-3{
+        font-size: 10px;
+    }
+    input[type=email]{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    .hero-btns button{
+        padding: 15px 80px;
+    }
+    input[type=email]::placeholder{
+        font-size: 14px;
+    }
+    .section-one .part-1 h3,.section-two .part-1 h3,.section-three .part-1 h3, .section-four .part-1 h3 {
+        font-size: 2rem;
+    }
+    .FAQuestion{
+        gap: 3rem;
+    }
+    .footer-part{
+        max-width: 300px;
+    }
 }

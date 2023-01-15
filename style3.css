@@ -181,12 +181,28 @@ i{
     font-size: 25px;
     font-weight: 700;
     text-align: left;
+    color: #fff;
 }
 
 .hero-section-2-images{
     display: flex;
+    gap: 3px;
 }
 
 .hero-section-2-images img{
+    width: 250px;
+}
+
+.image-3{
     width: 200px;
+    height: 200px;
+}
+
+main, footer{
+    background-color: #000;
+    padding: 0 4rem 0 4rem;
+}
+
+#number{
+    width: 50px;
 }

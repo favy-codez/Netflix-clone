@@ -71,7 +71,7 @@ i{
     background-repeat: no-repeat; 
     object-fit: cover;
     color: #ffffff;
-    margin: -5rem 0 0 0;
+    /* margin: -5rem 0 0 0; */
 }
 
 #hero-header-text{

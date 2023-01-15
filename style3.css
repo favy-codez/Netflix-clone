@@ -193,9 +193,13 @@ i{
     width: 250px;
 }
 
-.image-3{
+.image-3 img {
     width: 200px;
     height: 200px;
+}
+
+.image-4 img{
+    width: 208px;
 }
 
 main, footer{

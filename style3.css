@@ -225,3 +225,44 @@ main, footer{
     display: flex;
     gap: 7px;
 }
+
+/* footer */
+footer{
+    background-color: #000;
+    opacity: 0.86;
+    padding: 2rem 0;
+    color: #808080;
+    ;
+}
+
+.footer-part2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.footer-part{
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-div{
+    border: 1px solid #B3B3B3;
+    /* text-align: center; */
+    display: flex;
+    gap: 7px;
+    padding: 5px ;
+}
+
+#globe{
+    font-size: 13px;
+}
+
+#eng{
+    margin: 1px 0 0 0;
+}
+
+#footer-text{
+    font-size: 12px;
+}

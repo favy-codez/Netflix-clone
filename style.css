@@ -146,8 +146,6 @@ main{
 
 hr{
     display: block;
-    /* margin-left: 5%;
-    margin-right: 5%; */
     border: rgba(102, 96, 96, 0.4) 3px;
     border-style: inset;
 }
@@ -371,4 +369,5 @@ footer{
 
 footer p:hover{
     color: rgb(229, 9, 20);
+    transition: 0.5s;
 }

@@ -21,6 +21,15 @@ header #profile-logo{
     margin: 20px 0 0 40px;
 }
 
+.box1 img:hover{
+    transform: scaleX(1.1);
+    transition: 0.5s;
+}
+
+.box1 p:hover{
+    color: red;
+}
+
 .box1 img{
     width: 110px;
 }
@@ -67,10 +76,29 @@ header #profile-logo{
     padding: 5px 0;
 }
 
-/* HOVER SECTION */
-
-/* MEDIA QUERY SECTION*/
-@media screen and (max-width:992px){
-
+#enter-text:hover{
+    border: 1px red solid;
+    transition: 0.5s;
 }
 
+/* MEDIA QUERY SECTION*/
+
+@media screen and (max-width:850px){
+   .box-container{
+        display: grid;
+        grid-template: repeat(3, 200px)/ repeat(2, 200px);
+        width: auto;
+   }
+
+}
+@media screen and (max-width:375px){
+    header{
+        text-align: center;
+    }
+    header #profile-logo{
+        margin-left: 0;
+    }
+    .box-container{
+        grid-template: repeat(3, 200px)/ repeat(2, 150px);
+    }
+}

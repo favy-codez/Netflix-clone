@@ -18,10 +18,6 @@ a{
 
 .container{
     background-image: url(/IMAGES/the.jpg);
-    /* background: linear-gradient(rgba(19, 18, 18, 0.2), rgb(17, 17, 17)), url(/IMAGES/page3.png);  */
-    /* background: rgba(0,0,0,.5);
-    background-image: linear-gradient(360deg,transparent 0%,rgba(7, 7, 7, 0.3)),url(/IMAGES/page3.png); */
-    /* opacity: -1; */
     color: #fff;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -67,15 +63,47 @@ input[type=password]{
    background-color: #333;
    color: #fff;
 }
-input[type=submit]{
+
+#submit-btn{
+    display: inline-block;
     width: 100%;
     padding: 10px 0;
     background-color: #Eb0914;
     color: #fff;
     border-radius: 5px;
+    text-align: center;
 } 
+#submit-btn:hover{
+    background-color: rgb(179, 62, 68);
+    transition: 0.5s;
+}
 
-input[type=submit]::placeholder{
+#help:hover{
+    color: #Eb0914;
+    transition: 0.5s;
+}
+
+#login:hover{
+    color: #Eb0914;
+    transition: 0.5s;
+}
+
+#dark:hover{
+    color: #Eb0914;
+    transition: 0.5s;
+}
+
+#blue:hover{
+    color: #Eb0914;
+    transition: 0.5s;
+}
+
+footer p:hover{
+    color: rgb(229, 9, 20);
+    transition: 0.5s;
+}
+
+#submit-btn::placeholder{
     text-align: center;
 }
 
@@ -149,7 +177,6 @@ footer{
 
 .footer-div{
     border: 1px solid #B3B3B3;
-    /* text-align: center; */
     display: flex;
     gap: 7px;
     padding: 5px ;
@@ -165,4 +192,38 @@ footer{
 
 #footer-text{
     font-size: 12px;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 740px) {
+    .container{
+        background-image: none;
+        background-color: black;
+    }
+    form{
+        max-width: none;
+    }
+    input[type=email], input[type=password], #submit-btn{
+        height: 50px;
+    }
+
+    hr{
+        display: block;
+        border: 0.5px solid white;
+        width: 95%;
+    }
+}
+@media screen and (max-width: 576px){
+    form{
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .footer-part2{
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        padding: 20px;
+    }
+    #footer-text{
+        padding-left: 30px;
+    }
 }

@@ -66,7 +66,7 @@ i{
 /* Hero-section */
 .hero-section{
     padding: 0 4rem 0 4rem;
-    background-image: url(/IMAGES/download.jpeg);
+    background-image: url(/IMAGES/MoviePoster\ \(20\).png);
     background-size: cover;
     background-repeat: no-repeat; 
     object-fit: cover;
@@ -214,4 +214,5 @@ main, footer{
 
 #num-img{
     width: 150px;
+    height: 130px;
 }

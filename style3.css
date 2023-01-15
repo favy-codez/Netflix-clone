@@ -213,10 +213,15 @@ main, footer{
 
 .number-images{
     display: flex;
-    gap: 10px;
+    gap: 13px;
 }
 
 #num-img{
-    width: 150px;
+    width: 195px;
     height: 130px;
+}
+
+.images-6{
+    display: flex;
+    gap: 7px;
 }

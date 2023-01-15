@@ -206,3 +206,12 @@ main, footer{
 #number{
     width: 50px;
 }
+
+.number-images{
+    display: flex;
+    gap: 10px;
+}
+
+#num-img{
+    width: 150px;
+}

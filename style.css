@@ -371,3 +371,59 @@ footer p:hover{
     color: rgb(229, 9, 20);
     transition: 0.5s;
 }
+
+@media screen and (max-width: 992px) {
+    .section-one, .section-two, .section-three, .section-four{
+        padding: 1rem 3rem ;
+        gap: 2rem;
+    }
+}
+@media screen and (max-width: 768px) {
+main h3{
+    font-size: 1.8rem;
+}
+.section-two .part-1 p, .section-one .part-1 p,.section-three .part-1 p, .section-four .part-1 p{
+    width: 280px;
+}
+.section-two .part-1 h3,.section-one .part-1 h3, .section-three .part-1 h3, .section-four .part-1 h3{
+    width: 280px;
+}
+.section-one, .section-two, .section-three, .section-four{
+    padding: 1rem 1rem ;
+    gap: 1rem;
+}
+.FAQHeader h1{
+    font-size: 2rem;
+}
+.FAQ h3{
+    width: 200px;
+}
+}
+@media screen and (max-width: 768px){
+    .section-one, .section-two, .section-three, .section-four{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 576px){
+    .section-two .part-1 p, .section-one .part-1 p, .section-three .part-1 p, .section-four .part-1 p{
+        width: 100%;
+        text-align: center;
+    }
+    .section-two .part-1 h3, .section-one .part-1 h3, .section-three .part-1 h3, .section-four .part-1 h3{
+        width: 100%;
+        text-align: center;
+    }
+    .FAQ{
+        width: 100%;
+    }
+    .FAQ h3{
+        width: 150px;
+        font-size: 1.1rem;
+    }
+    .FAQuestion{
+        gap: 12rem;
+    }
+}
+@media screen and (max-width: 523px){
+
+}

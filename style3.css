@@ -152,18 +152,20 @@ i{
 .button-1 i{
     color: #000;
     font-size: 30px;
-    margin: 7px 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 .button-2{
     display: flex;
+    gap: 10px;
     background-color:rgba(255, 255, 255, 0.3) ;
     color: #fff;
-    margin: 7px 0 0 0;
+    padding: 0px 25px;
 }
 
 .button-2 i{
-    font-size: 30px;
+    font-size: 25px;
+    margin: 12px 0 0 0;
 }
 
 #hero-text-4{
@@ -172,5 +174,10 @@ i{
 }
 
 #hero-text-5{
+    font-weight: 700;
+}
+
+#hero-text-6{
+    font-size: 25px;
     font-weight: 700;
 }

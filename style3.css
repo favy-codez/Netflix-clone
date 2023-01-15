@@ -202,6 +202,10 @@ i{
     width: 208px;
 }
 
+main{
+    padding: 2rem 0 0 0;
+}
+
 main, footer{
     background-color: #000;
     padding: 0 4rem 0 4rem;
@@ -224,6 +228,16 @@ main, footer{
 .images-6{
     display: flex;
     gap: 7px;
+}
+
+.part-4{
+    display: flex;
+    gap: 10px;
+}
+
+.part-4 img{
+    width: 210px;
+    height: 200px;
 }
 
 /* footer */

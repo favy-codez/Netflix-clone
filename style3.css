@@ -146,16 +146,31 @@ i{
     display: flex;
     background-color: #fff;
     color: #000;
-    padding: 0px 16px;
+    padding: 0px 30px;
 }
 
 .button-1 i{
     color: #000;
+    font-size: 30px;
+    margin: 7px 0 0 0;
 }
 
 .button-2{
     display: flex;
-    /* background-color: #5C5E5A; */
-    background-color:rgba(92, 94, 90, 0.5);
+    background-color:rgba(255, 255, 255, 0.3) ;
     color: #fff;
+    margin: 7px 0 0 0;
+}
+
+.button-2 i{
+    font-size: 30px;
+}
+
+#hero-text-4{
+    font-weight: 700;
+    line-height: -60px;
+}
+
+#hero-text-5{
+    font-weight: 700;
 }

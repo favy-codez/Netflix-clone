@@ -181,3 +181,11 @@ i{
     font-size: 25px;
     font-weight: 700;
 }
+
+.hero-section-2-images{
+    display: flex;
+}
+
+.hero-section-2-images img{
+    width: 200px;
+}

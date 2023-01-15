@@ -50,6 +50,7 @@ header{
 .nav-side{
     font-size: 13px;
     padding: -2px 12px;
+    /* box-shadow: 1px 1px 1px 1px #fff; */
 }
 
 .hero-div button{
@@ -57,6 +58,11 @@ header{
     background-color: rgb(229, 9, 20);
     padding: 10px 22px;
     border-radius: 3px;
+}
+
+.hero-div button:hover{
+    background-color: rgb(179, 62, 68);
+    transition: 0.5s;
 }
 
 /* hero section */
@@ -114,6 +120,11 @@ input[type=email]{
     padding: 14px 10px;
     width: 180px;
     font-size: 16px;
+}
+
+.hero-btns button:hover{
+    background-color: rgb(179, 62, 68);
+    transition: 0.5s;
 }
 
 .hero-btns a{
@@ -354,10 +365,10 @@ footer{
     font-size: 12px;
 }
 
-/* .red-box{
-    margin: 0 0 3rem 0;
-} */
-
 .FAQSection-2{
     padding: 0 0 4rem 0;
+}
+
+footer p:hover{
+    color: rgb(229, 9, 20);
 }

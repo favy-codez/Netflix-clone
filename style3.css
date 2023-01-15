@@ -5,6 +5,15 @@
     /* background-color: #000; */
 }
 
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
 /* header section */
 .nav-section{
     display: flex;

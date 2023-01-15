@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica Neue,Roboto,Ubuntu,sans-serif;
-    background-color: black;
 }
 
 html, body{
@@ -15,62 +14,341 @@ a{
     text-decoration: none;
 }
 
-/* **************************************************Profile page styling***************************************** */
-header #profile-logo{
-    width: 180px;
-    margin: 20px 0 0 40px;
-}
+/* text shadow */
+/* add box shadow */
+/* hover */
 
-.box1 img{
-    width: 110px;
-}
-
-#add-icon{
-    width: 80px;
-    margin: 15px 0 0 0;
-}
-
-#add-icon-text{
-    margin: 30px 0 0 0;
-}
-
-#welcome-text{
+/* header */
+header{
+    background-image: url(/IMAGES/the.jpg);
+    /* background: rgba(0,0,0,.5);
+    background-image: linear-gradient(360deg,transparent 0%,rgba(7, 7, 7, 0.3)),url(/IMAGES/page3.png); */
+    /* opacity: -1; */
     color: #fff;
-    text-align: center;
-    font-weight: 300;
-    font-size: 2.6rem;
-    margin: 6rem 0 3rem 0;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.container{
-    display: grid;
-    place-items: center;
+/* nav section */
+.nav-section img{
+    width: 7rem;
 }
 
-.box-container{
-    width: 800px;
+.nav-section{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    color: rgba(109, 109, 110, 0.7);
-    color: #6D6D6EB2;
+    padding: 1rem 2rem 0 2rem;
+}
+
+.hero-div{
+    display: flex;
+    gap: 15px;
+}
+
+.nav-side{
+    font-size: 13px;
+    padding: -2px 12px;
+}
+
+.hero-div button{
+    color: #fff;
+    background-color: rgb(229, 9, 20);
+    padding: 10px 22px;
+    border-radius: 3px;
+}
+
+/* hero section */
+.hero-section{
+    display: grid;
+    place-items: center;
+    padding: 6rem 0;
+}
+
+.hero-btns{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=email]::placeholder{
+    font-size: 11px;
+    font-weight: 600;
+}
+
+input[type=email]{
+    padding: 23px 0;
+}
+
+#hero-text-1{
+    font-size: 3rem;
+    font-weight: 600;
+    width: 560px;
     text-align: center;
-    font-weight: 300;
 }
 
-#enter-text{
+#hero-text-1 span{
+    border-radius: 100%;
+}
+
+#hero-text-2{
+    margin: -2rem 0 0 0;
+}
+
+#hero-text-3{
+    font-size: 12px;
+    margin: 1rem 0 12px 0;
+}
+
+input[type=email]{
+    width: 300px;
+    padding: 15px 10px;
+}
+
+.hero-btns button{
+    color: #fff;
+    background-color: rgb(229, 9, 20);
+    padding: 14px 10px;
+    width: 180px;
+    font-size: 16px;
+}
+
+.hero-btns a{
+    display: flex;
+    line-height: 10px;
+}
+
+.arrow{
+    line-height: 12px;
+    font-size: 18px;
+}
+
+/* main section */
+main{
+    background-color: #000;
+    color: #fff;
+    margin: -2rem 0 -2rem 0;
+}
+
+hr{
+    display: block;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    border: rgba(102, 96, 96, 0.4) 3px;
+    border-style: inset;
+}
+
+/* section one */
+.section-one, .section-two, .section-three, .section-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 1rem 0;
+}
+
+/* main images */
+.section-one img{
+    width: 400px;
+}
+
+.section-two img{
+    width: 400px;
+}
+
+.section-three img{
+    width: 400px;
+}
+
+.section-four img{
+    width: 400px;
+}
+
+.section-one .part-1 h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.section-one .part-1 p{
+    font-weight: 200;
+    font-size: 25px;
+    width: 480px;
+    line-height: 25px;
+    margin: -20px 0 0 0;
+}
+
+.section-two .part-1 h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 450px;
+}
+
+.section-two .part-1 p{
+    font-weight: 200;
+    font-size: 25px;
+    width: 480px;
+    line-height: 25px;
+    margin: -20px 0 0 0;
+}
+
+.section-three .part-1 h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 450px;
+}
+
+.section-three .part-1 p{
+    font-weight: 200;
+    font-size: 25px;
+    width: 480px;
+    line-height: 25px;
+    margin: -20px 0 0 0;
+}
+
+.section-four .part-1 h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 450px;
+}
+
+.section-four .part-1 p{
+    font-weight: 200;
+    font-size: 25px;
+    width: 460px;
+    line-height: 25px;
+    margin: -20px 0 0 0;
+}
+
+/* footer */
+.footer-div{
+    border: 1px solid #B3B3B3;
+    display: flex;
+    gap: 7px;
+    padding: -6px 5px;
+}
+
+#globe{
+    font-size: 15px;
+}
+
+#eng{
+    margin: 1px 0 0 0;
+}
+
+/* FAQSection */
+.FAQSection{
     text-align: center;
-    color: #808080;
-    font-weight: 300;
-    border: 1px solid;
-    width: 250px;
-    margin: 26px auto 0 auto;
-    padding: 5px 0;
+    padding: 1rem 0;
 }
 
-/* HOVER SECTION */
-
-/* MEDIA QUERY SECTION*/
-@media screen and (max-width:992px){
-
+.FAQHeader{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
 
+.FAQHeader h1{
+    font-size: 3rem;
+    font-weight: 800;
+    /* color: rgb(19,32,60); */
+    color: #fff;
+}
+
+#FAQs{
+    display: grid;
+    place-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FAQ{
+    width: 100%;
+    border:1px solid rgb(194, 189, 189);
+    padding: 20px ;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.FAQ h3{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.FAQ p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.FAQuestion{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25rem;
+    /* color: rgb(19,32,60); */
+    color: #fff;
+}
+
+.FAQAnswer{
+    display: none;
+    width: 50%;
+}
+
+.FAQ.showFAQ .FAQAnswer{
+    display: block;
+}
+
+.FAQText{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    
+}
+
+/* footer */
+footer{
+    background-color: #000;
+    /* opacity: 0.86; */
+    padding: 2rem 0;
+    color:  #B3B3B3;
+}
+
+.footer-part2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.footer-part{
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-div{
+    border: 1px solid #B3B3B3;
+    display: flex;
+    gap: 7px;
+    padding: 5px ;
+}
+
+#globe{
+    font-size: 13px;
+}
+
+#eng{
+    margin: 1px 0 0 0;
+}
+
+#footer-text{
+    font-size: 12px;
+}

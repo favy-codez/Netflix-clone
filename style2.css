@@ -2,160 +2,75 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: #000; */
+    font-family: Helvetica Neue,Roboto,Ubuntu,sans-serif;
+    background-color: black;
 }
 
-/* header section */
-.nav-section{
-    display: flex;
-    padding: 20px 4rem 20px 4rem;
-    justify-content: space-between;
-    color: #E5E5E5;
-    background-color: #000;
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
-i{
+a{
+    text-decoration: none;
+}
+
+/* **************************************************Profile page styling***************************************** */
+header #profile-logo{
+    width: 180px;
+    margin: 20px 0 0 40px;
+}
+
+.box1 img{
+    width: 110px;
+}
+
+#add-icon{
+    width: 80px;
+    margin: 15px 0 0 0;
+}
+
+#add-icon-text{
+    margin: 30px 0 0 0;
+}
+
+#welcome-text{
     color: #fff;
-    font-size: 20px;
-}
-
-#netflix-header-logo{
-    width: 100px;
-    height: 34px;
-}
-
-#profile-picture{
-    width: 20px;
-    height: 20px;
-}
-
-.nav-options-1{
-    display: flex;
-    justify-content: space-between;
-    font-weight: 500;
-    padding: 0 0 0 2rem;
-    margin: -11px 0 0 0;
-}
-
-.nav-options-1 p{
-    padding: 0 15px 0 0;
-}
-
-.nav-options-1 p:hover{
-    transform: scaleX(1.1);
-    transition: 0.5s;
-}
-
-.nav-section-1{
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-section-2{
-    width: 230px;
-    display: flex;
-    justify-content: space-between;
-}
-
-#header-text{
-    font-size: 12px;
-    margin: 1.6px 0 0 0;
-}
-
-
-/* Hero-section */
-.hero-section{
-    padding: 0 4rem 0 4rem;
-    background-image: url(/IMAGES/download.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    object-fit: cover;
-    color: #ffffff;
-    margin: -5rem 0 0 0;
-}
-
-#hero-header-text{
-    font-size: 5rem;
-    font-weight: 1000;
-    padding: 6rem 0 0 0;
-    text-align: left;
-    letter-spacing: -3px;
-}
-
-#hero-text-1{
-    font-size: 3.6rem;
-    padding: 0 0 0 0;
     text-align: center;
-    width: 350px;
-    margin: -6.3rem 0 0 0;
+    font-weight: 300;
+    font-size: 2.6rem;
+    margin: 6rem 0 3rem 0;
 }
 
-.a{
+.container{
+    display: grid;
+    place-items: center;
+}
+
+.box-container{
+    width: 800px;
     display: flex;
-}
-
-.b{
-    width: 50%;
-}
-
-.red-box{
-    color: #fff;
-    background-color: red;
-    font-size: 10px;
-    width: 17px;
-    height: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-}
-
-.red-box  #top{
-    font-size: 8px;
-    padding: -5px 0 0 0;
-}
-
-.red-box #num{
-    font-size: 14px;
-    font-weight: 700;
-    margin: -12px 0 0 0;
-}
-
-.red{
-    display: flex;
-    gap: 10px;
-}
-
-#hero-text-2{
-    margin: 2px 0 0 0;
-    font-size: 26px;
+    justify-content: space-between;
+    color: rgba(109, 109, 110, 0.7);
+    color: #6D6D6EB2;
+    text-align: center;
     font-weight: 300;
 }
 
-#hero-text-3{
-    font-size: 20px;
-    width: 460px;
-    text-align: left;
+#enter-text{
+    text-align: center;
+    color: #808080;
+    font-weight: 300;
+    border: 1px solid;
+    width: 250px;
+    margin: 26px auto 0 auto;
+    padding: 5px 0;
 }
 
-.hero-buttons{
-    display: flex;
-    gap: 1rem;
+/* HOVER SECTION */
+
+/* MEDIA QUERY SECTION*/
+@media screen and (max-width:992px){
+
 }
 
-.button-1{
-    display: flex;
-    background-color: #fff;
-    color: #000;
-    padding: 0px 16px;
-}
-
-.button-1 i{
-    color: #000;
-}
-
-.button-2{
-    display: flex;
-    /* background-color: #5C5E5A; */
-    background-color:rgba(92, 94, 90, 0.5);
-    color: #fff;
-}

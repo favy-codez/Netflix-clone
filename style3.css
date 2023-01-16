@@ -14,6 +14,7 @@ a{
     text-decoration: none;
 }
 
+
 /* header section */
 .nav-section{
     display: flex;
@@ -329,3 +330,4 @@ footer{
 @media screen and (max-width: 1200px) {
 
 }
+

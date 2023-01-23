@@ -338,7 +338,7 @@ footer{
         padding: 2rem ;
     }
     .nav-section{
-        p
+        padding: 20px 2rem;
     }
 }
 @media screen and (max-width: 768px) {

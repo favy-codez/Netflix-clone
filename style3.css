@@ -329,6 +329,11 @@ footer{
     font-size: 12px;
 }
 
+/* HAMBURGER */
+.nav-toggle{
+    background-color: #000;
+}
+
 /* MEDIAQUERY */
 @media screen and (max-width: 978px) {
     .hero-section{

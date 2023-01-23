@@ -366,6 +366,13 @@ footer{
         transition: var(--transition);
         cursor: pointer;
       }
+      .nav-toggle:hover {
+        color: var(--clr-primary-1);
+        transform: rotate(90deg);
+      }
+      .show-links {
+        height: 10rem;
+      }
 }
 
 

@@ -352,6 +352,7 @@ footer{
     .hero-section-2-images{
         gap: 10px;
     }
+    
     /* hamburger */
     /* .ham{
         display: flex;
@@ -409,6 +410,18 @@ footer{
 .nav-section-2{
     display: none;
 }
+a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    left: 90%;
+    top: 5;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
 }
 

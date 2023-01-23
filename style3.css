@@ -337,5 +337,14 @@ footer{
     main, footer{
         padding: 2rem ;
     }
+    .nav-section{
+        p
+    }
 }
+@media screen and (max-width: 768px) {
+    .hero-section-2-images{
+        gap: 10px;
+    }
+}
+
 

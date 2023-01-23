@@ -1,4 +1,4 @@
 $(document).ready(function(){
-    $('.your-class').slick({
+    $('.hero-section-2-images').slick({
     });
   });

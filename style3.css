@@ -330,11 +330,11 @@ footer{
 }
 
 /* HAMBURGER */
-.nav-toggle{
+/* .nav-toggle{
     background-color: #000;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     display: none;
-}
+} */
 
 /* MEDIAQUERY */
 @media screen and (max-width: 978px) {
@@ -353,7 +353,7 @@ footer{
         gap: 10px;
     }
     /* hamburger */
-    .ham{
+    /* .ham{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -395,7 +395,9 @@ footer{
         align-items: center;
         justify-content: space-between;
         padding: 1rem;
-      }
+      } */
+
+      
 }
 
 

@@ -333,6 +333,7 @@ footer{
 .nav-toggle{
     background-color: #000;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: none;
 }
 
 /* MEDIAQUERY */
@@ -357,6 +358,8 @@ footer{
         align-items: center;
         justify-content: space-between;
         padding: 1rem;
+        font-size: 100px;
+        width: 45rem;
     }
     .nav-toggle {
         font-size: 1.5rem;
@@ -364,6 +367,7 @@ footer{
         border-color: transparent;
         transition: all 0.3s linear;
         cursor: pointer;
+        display: block;
       }
       .nav-toggle:hover {
         color:hsl(205, 86%, 17%);

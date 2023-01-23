@@ -6,7 +6,7 @@
 }
 
 html, body{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -330,7 +330,12 @@ footer{
 }
 
 /* MEDIAQUERY */
-@media screen and (max-width: 1200px) {
-
+@media screen and (max-width: 978px) {
+    .hero-section{
+        padding: 0 2rem;
+    }
+    main, footer{
+        padding: 2rem ;
+    }
 }
 

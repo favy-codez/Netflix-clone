@@ -373,6 +373,12 @@ footer{
       .show-links {
         height: 10rem;
       }
+      .nav-options-1{
+        display: none;
+      }
+      .nav-options-2{
+        display: none;
+      }
 }
 
 

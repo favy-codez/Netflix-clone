@@ -360,14 +360,13 @@ footer{
     }
     .nav-toggle {
         font-size: 1.5rem;
-        color: var(--clr-primary-5);
         background: transparent;
         border-color: transparent;
-        transition: var(--transition);
+        transition: all 0.3s linear;
         cursor: pointer;
       }
       .nav-toggle:hover {
-        color: var(--clr-primary-1);
+        color:hsl(205, 86%, 17%);
         transform: rotate(90deg);
       }
       .show-links {

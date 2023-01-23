@@ -398,8 +398,15 @@ footer{
       } */
 .nav-section{
     overflow: hidden;
-    background-color: #333;
+    /* background-color: #333; */
     position: relative;
+}
+
+.nav-options-1{
+    display: none;
+}
+.nav-options-2{
+    display: none;
 }
 
 }

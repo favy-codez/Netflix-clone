@@ -446,7 +446,11 @@ a.icon {
   transition: var(--transition);
 }
 
-.nav-options-1 p
+.nav-options-1 p:hover {
+    background: var(--clr-primary-8);
+    color: var(--clr-primary-5);
+    padding-left: 1.5rem;
+}
 
 /* a:hover {
     color: black;

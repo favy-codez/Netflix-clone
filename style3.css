@@ -445,8 +445,8 @@ a.icon {
 
 .nav-options-1{
     height: 0;
-  overflow: hidden;
-  transition: var(--transition);
+    overflow: hidden;
+    transition: var(--transition);
 }
 
 .nav-options-1 p {
@@ -468,6 +468,10 @@ a.icon {
 .nav-section{
     display: flex;
     flex-direction: column;
+}
+
+.show-links {
+    height: 10rem;
 }
 
 /* a:hover {

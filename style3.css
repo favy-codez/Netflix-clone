@@ -424,20 +424,25 @@ a.icon {
 
 .nav-toggle {
     font-size: 1.5rem;
-    color: var(--clr-primary-5);
+    color: hsl(210, 22%, 49%);
     background: transparent;
     border-color: transparent;
-    transition: var(--transition);
+    transition: all 0.3s linear;
     cursor: pointer;
-  }
+}
 
-a:hover {
+.nav-toggle:hover {
+    color: var(--clr-primary-1);
+    transform: rotate(90deg);
+}
+
+/* a:hover {
     color: black;
 }
 a.active {
     background-color: #0c0e0d;
     color: white;
-}
+} */
 
 }
 

@@ -436,6 +436,18 @@ a.icon {
     transform: rotate(90deg);
 }
 
+.nav-options-1 p {
+    color: var(--clr-grey-3);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+}
+
+.nav-options-1 p
+
 /* a:hover {
     color: black;
 }

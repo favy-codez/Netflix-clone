@@ -411,6 +411,7 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 41rem;
+    padding: 0;
 }
 
 a.icon {
@@ -443,7 +444,10 @@ a.icon {
 .nav-options-1{
     height: 0;
     overflow: hidden;
-    transition: var(--transition);
+    transition: all 0.3s linear;
+
+    height: auto;
+    display: flex;
 }
 
 .nav-options-1 p {
@@ -454,12 +458,22 @@ a.icon {
     display: block;
     padding: 0.5rem 1rem;
     transition: all 0.3s linear;
+
+    padding: 0;
+    margin: 0 0.5rem;
 }
 
 .nav-options-1 p:hover {
-    background: hsl(205, 86%, 81%);
+    /* background: hsl(205, 86%, 81%);
     color: hsl(205, 78%, 60%);
-    padding-left: 1.5rem;
+    padding-left: 1.5rem; */
+
+    padding: 0;
+    background: transparent;
+}
+
+.nav-section-2{
+    display: flex;
 }
 
 .nav-section{
@@ -467,7 +481,6 @@ a.icon {
     flex-direction: column;
     max-width: 1170px;
     margin: 0 auto;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;

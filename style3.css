@@ -414,6 +414,7 @@ a.icon {
 .nav{
     display: flex;
     justify-content: space-between;
+    width: 41rem;
 }
 
 a.icon {

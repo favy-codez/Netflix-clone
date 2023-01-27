@@ -407,7 +407,7 @@ a.icon {
     position: relative;
 } */
 
-.nav-section-1{
+.nav-section-2{
     display: none;
 }
 
@@ -432,24 +432,33 @@ a.icon {
 }
 
 .nav-toggle:hover {
-    color: var(--clr-primary-1);
+    color: hsl(205, 86%, 17%);
     transform: rotate(90deg);
 }
 
+.nav-options-1{
+    width: 100%;
+}
+
 .nav-options-1 p {
-    color: var(--clr-grey-3);
-  font-size: 1rem;
-  text-transform: capitalize;
-  letter-spacing: var(--spacing);
-  display: block;
-  padding: 0.5rem 1rem;
-  transition: var(--transition);
+    color: #fff;
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
 }
 
 .nav-options-1 p:hover {
-    background: var(--clr-primary-8);
-    color: var(--clr-primary-5);
+    background: hsl(205, 86%, 81%);
+    color: hsl(205, 78%, 60%);
     padding-left: 1.5rem;
+}
+
+.nav-section{
+    display: flex;
+    flex-direction: column;
 }
 
 /* a:hover {

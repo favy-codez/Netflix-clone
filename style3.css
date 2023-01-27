@@ -329,7 +329,10 @@ footer{
     font-size: 12px;
 }
 
-/* HAMBURGER */
+/* hamburger */
+a.icon {
+    display: none;
+}
 /* .nav-toggle{
     background-color: #000;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -417,11 +420,14 @@ a.icon {
     left: 90%;
     top: 5;
 }
-
 a:hover {
-    background-color: #ddd;
+    
     color: black;
-  }
+}
+a.active {
+    background-color: #0c0e0d;
+    color: white;
+}
 
 }
 

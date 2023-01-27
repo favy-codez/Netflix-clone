@@ -421,12 +421,15 @@ a.icon {
     background: black;
     display: block;
 }
-/*
-    
-    position: absolute;
-    left: 90%;
-    top:-3;
-} */
+
+.nav-toggle {
+    font-size: 1.5rem;
+    color: var(--clr-primary-5);
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+  }
 
 a:hover {
     color: black;

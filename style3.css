@@ -65,6 +65,7 @@ i{
     width: 230px;
     display: flex;
     justify-content: space-between;
+    padding: 5px 0 0 0 ;
 }
 
 .nav-section-2 p:hover, .nav-section-2 i:hover, .nav-section-2 img:hover{

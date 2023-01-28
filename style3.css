@@ -426,5 +426,14 @@ a:hover {
   }
 }
 @media screen and (max-width: 576px){
-
+    .button-1{
+        font-size: 19px;
+        padding: 0rem 14px;
+        height: 42px;
+      }
+      .button-1 i{
+        font-size: 30px;
+        height: 5px;
+      }
+     
 }

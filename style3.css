@@ -355,8 +355,7 @@ footer{
         padding: 20px 2rem;
     }
 }
-@media
- screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .hero-section-2-images{
         gap: 10px;
 }
@@ -411,10 +410,21 @@ footer{
     right: 0%;
 }
 /* hambuerger menu end */
-
 a:hover {
     background-color: #ddd;
     color: black;
   }
+  .button-1{
+    font-size: 20px;
+    padding: 0px 14px;
+  }
+  .button-1 i{
+    font-size: 40px;
+  }
+  .button-2{
+    font-size: 17px; 
+  }
+}
+@media screen and (max-width: 576px){
 
 }

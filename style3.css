@@ -446,8 +446,16 @@ a:hover {
       .footer{
         padding: 1rem 2rem;
       }
-      #footer-inc{
-
+      .div-4{
+        width: 200px;
       }
-     
+      .div-5{
+        padding: 0  10px 0 0;
+      }
+      .div-6{
+        padding: 0  10px 0 0;
+      }
+      .div-7{
+        padding: 0  10px 0 0;
+      } 
 }

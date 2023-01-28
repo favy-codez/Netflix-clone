@@ -428,12 +428,15 @@ a:hover {
 @media screen and (max-width: 576px){
     .button-1{
         font-size: 19px;
-        padding: 0rem 14px;
+        padding: 0rem 14px 15px 14px;
         height: 42px;
       }
       .button-1 i{
         font-size: 30px;
         height: 5px;
       }
+      /* #hero-text-4{
+        padding: 0 0 12px 0;
+      } */
      
 }

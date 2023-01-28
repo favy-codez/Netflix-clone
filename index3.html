@@ -18,24 +18,18 @@
 
     <header>
         <section class="nav-section">
-                    <div class="nav">
-                        <img src="/IMAGES/logo (2).png" alt="" id="netflix-header-logo">
-                                <!-- Hamburger menu-->
-                        <a href="" class="nav-toggle">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                    </div>
-
             <section class="nav-section-1">
-                <div class="nav-options-1" id="myLinks">
+                    <img src="/IMAGES/logo (2).png" alt="" id="netflix-header-logo">
+
+                <div class="nav-options-1">
                     <p>Ana Sayfa</p>
                     <p>Diziler</p>
                     <p>Filmler</p>
                     <p>Listem</p>
                 </div>
-            
+            </section>
 
-            <section class="nav-section-2" id="myLinks">
+            <section class="nav-section-2">
                 <i class="ri-search-line"></i>
                 <p id="header-text">ÇOCUK</p>
                 <i class="ri-gift-2-line"></i>
@@ -44,7 +38,25 @@
                 <i class="ri-arrow-down-s-fill"></i>
             </section>
 
-        </section>
+            <!-- Hamburger menu-->
+
+            <a href="javascript:void(0);" class="icon" id="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+              <!-- hamburger menu -->
+            <div class="hamburger-menu" id="hamburger-menu">
+                <a href="#" onclick="closeIcon()" class="close" id="cancel"><i class="ri-close-line ri-2x"></i></a>
+                <p>Ana Sayfa</p>
+                <p>Diziler</p>
+                <p>Filmler</p>
+                <p>Listem</p>
+                <i class="ri-search-line"></i>
+                <p id="header-text">ÇOCUK</p>
+                <i class="ri-gift-2-line"></i>
+                <i class="ri-notification-line"></i>
+                <img src="/IMAGES/ProfilePicture (2).png" alt="profile-picture" id="profile-picture">
+                <i class="ri-arrow-down-s-fill"></i>
+            </div>
         </section>
     </header>
 

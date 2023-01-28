@@ -509,7 +509,7 @@ a:hover {
         padding: 0 1.4rem;
     }
     main, footer{
-        padding: 0 1.4rem;
+        padding: 1rem 1.4rem;
     }
     footer{
         padding: 2rem 5px 2rem 1.4rem;
@@ -517,7 +517,7 @@ a:hover {
 }
 @media screen and (max-width: 330px){
     #hero-text-3{
-        width: 300px;
+        width: 280px;
         font-size: 17px;
     }
 }

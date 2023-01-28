@@ -483,5 +483,32 @@ a:hover {
     #hero-text-3{
         width: 380px;
     }
-    #hero-text-6
+    #hero-text-6{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    #hero-text-3{
+        width: 340px;
+    }
+    .red{
+        width: 300px;
+    }
+    #hero-text-2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 365px){
+    #hero-text-3{
+        width: 300px;
+    }
+    .hero-section{
+        padding: 0 1.4rem;
+    }
+}
+
+@media screen and (max-width: 460px){
+    
 }

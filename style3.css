@@ -478,3 +478,10 @@ a:hover {
         width: 400px;
     }
 }
+
+@media screen and (max-width: 460px){
+    #hero-text-3{
+        width: 380px;
+    }
+    #hero-text-6
+}

@@ -429,14 +429,19 @@ a:hover {
     .button-1{
         font-size: 19px;
         padding: 0rem 14px 15px 14px;
-        height: 42px;
+        height: 62px;
       }
       .button-1 i{
         font-size: 30px;
         height: 5px;
       }
-      /* #hero-text-4{
-        padding: 0 0 12px 0;
-      } */
+      .button-2{
+        font-size: 19px;
+        padding: 0 20px;
+        height: 62px;
+      }
+      #hero-text-5{
+        width: 140px;
+      }
      
 }

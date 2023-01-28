@@ -507,6 +507,9 @@ a:hover {
     .hero-section{
         padding: 0 1.4rem;
     }
+    main, footer{
+        padding: 0 1.4rem;
+    }
 }
 
 @media screen and (max-width: 460px){
